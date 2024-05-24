@@ -1,0 +1,61 @@
+tagNameModelParameter
+* header: 'CLAUDEModelParameter'
+
+NumberDescriptor
+* Number of descriptors.
+* integer
+* self.nDescriptor
+
+FlagLinearModel
+* linear model
+* "T" if yes
+
+* If linear model,
+    * self.dimensionDescriptor = self.nDescriptor + 1
+    * self.degreePolynomialDescriptor is matrix, 0 except on [i,i-1] for i in range self.dimensionDescriptor
+* else
+    * read DegreePolynomialDescriptor
+    * each child of DegreePolynomialDescriptor is node with children length of nDescriptor
+    * self.dimensionDescriptor is length of DegreePolynomialDescriptor 
+    * thus, DegreePolynomialDescriptor can be converted to matrix of size [dimensionDescriptor, nDescriptor]
+
+DomainDescriptor
+* looks like it is not used
+* (self.nDescriptor x 2) matrix
+* 0th index column is init to be 0, 1st index column is init to be 1
+* self.domainDescriptor[idx,0] = float(node.firstChild.nodeValue.split()[0])
+* self.domainDescriptor[idx,1] = float(node.firstChild.nodeValue.split()[1])
+* here idx is index of element with tag DomainDescriptor
+
+
+NumberTarget
+* integer
+* number of target variable
+
+DegreePolynomialTarget
+* component of target variable
+* same as DegreePolynomialDescriptor, but for target
+
+self.dimension = dimensionDescriptor + dimensionTarget
+
+ActiveVariable
+* self.activeVariable is matrix of shape [dimensionTarget, dimension], set as False
+* <ActiveDescriptor index=IDX1>idx2</ActiveDescriptor> => self.activeVariable[idx1,idx2] = True
+* However, if idx2 > dimensionDescriptor =>
+self.activeVariable[idx2 - self.dimensionDescriptor,idx1 + self.dimensionDescriptor] = True 
+* self.activeVariable[i,i + self.dimensionDescriptor] must be true
+
+InactiveVariable
+* Same as active variable, but set as false
+
+MinimizationMethod
+* Method: string
+* Tolerance: float
+* MaxIter
+* FTol
+* GTol
+* Eps
+* Disp
+
+ModeInitialPrecisionMatrixMax
+OffsetInitialPrecisionMatrixMax

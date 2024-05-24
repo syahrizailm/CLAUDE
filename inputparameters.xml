@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<InputParameters>
+  <InferenceInhomogeneousData>
+    <ColumnDescriptor>0 2</ColumnDescriptor>
+    <ColumnTarget>3 4</ColumnTarget>
+    <!-- <DegreePolynomial index='0'>0 1 2 3</DegreePolynomial> -->
+    <ActiveVariableDescriptor index='1'>0</ActiveVariableDescriptor>
+    <ActiveVariableDescriptor index='1'>1</ActiveVariableDescriptor>
+    <ActiveVariableDescriptor index='1'>2</ActiveVariableDescriptor>
+    <!-- <ActiveVariableDescriptor index='1'>3</ActiveVariableDescriptor> -->
+    <!-- <InactiveVariableDescriptor index='0'>0</InactiveVariableDescriptor> -->
+    <!-- <ActiveVariableTarget index='0'>0</ActiveVariableTarget> -->
+    <!-- <InactiveVariableTarget index='0'>0</InactiveVariableTarget> -->
+    <Limit index='0'>0.0 1.0</Limit>
+    <Limit index='1'>0.0 1.0</Limit>
+    <!-- <Limit index='2'>0.0 1.0</Limit> -->
+    <!-- <Limit index='3'>0.0 1.0</Limit> -->
+    <!-- <Limit index='2'>0.0 1.0</Limit> -->
+    <FlagLinearModel>T</FlagLinearModel>
+    <Mode>1</Mode>
+    <Eps>1.0e-8</Eps>
+    <Tol>1.0e-10</Tol>
+    <FTol>1.0e-10</FTol>
+    <GTol>1.0e-10</GTol>
+  </InferenceInhomogeneousData>
+  <Example>
+    <FilenameOutput1>example_init_15.dat</FilenameOutput1>
+    <FilenameOutput2>example_fit_15.dat</FilenameOutput2>
+    <NumberMesh>200</NumberMesh>
+  </Example>
+</InputParameters>
