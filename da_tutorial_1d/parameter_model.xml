@@ -1,0 +1,34 @@
+<CLAUDEModelParameter>
+   <NumberDescriptor>1</NumberDescriptor>
+   <DegreePolynomialDescriptor>0</DegreePolynomialDescriptor>
+   <DegreePolynomialDescriptor>1</DegreePolynomialDescriptor>
+   <DegreePolynomialDescriptor>2</DegreePolynomialDescriptor>
+   <DegreePolynomialDescriptor>3</DegreePolynomialDescriptor>
+   <DomainDescriptor index="0">0.0 1.0</DomainDescriptor>
+   <NumberTarget>2</NumberTarget>
+   <DegreePolynomialTarget>1 0</DegreePolynomialTarget>
+   <DegreePolynomialTarget>0 1</DegreePolynomialTarget>
+   <ActiveVariable index="0">0</ActiveVariable>
+   <ActiveVariable index="0">1</ActiveVariable>
+   <ActiveVariable index="0">2</ActiveVariable>
+   <ActiveVariable index="0">3</ActiveVariable>
+   <ActiveVariable index="0">4</ActiveVariable>
+   <ActiveVariable index="0">5</ActiveVariable>
+   <ActiveVariable index="1">0</ActiveVariable>
+   <InactiveVariable index="1">1</InactiveVariable>
+   <InactiveVariable index="1">2</InactiveVariable>
+   <InactiveVariable index="1">3</InactiveVariable>
+   <ActiveVariable index="1">4</ActiveVariable>
+   <ActiveVariable index="1">5</ActiveVariable>
+   <ModeInitialPrecisionMatrixMax>0</ModeInitialPrecisionMatrixMax>
+   <OffsetInitialPrecisionMatrixMax>0.1</OffsetInitialPrecisionMatrixMax>
+   <MinimizationMethod>
+      <Method>L-BFGS-B</Method>
+      <Tolerance>1e-08</Tolerance>
+      <MaxIter>1000</MaxIter>
+      <FTol>1e-10</FTol>
+      <GTol>1e-08</GTol>
+      <Eps>1e-08</Eps>
+      <Disp>False</Disp>
+   </MinimizationMethod>
+</CLAUDEModelParameter>

@@ -1,0 +1,99 @@
+<CLAUDECovarianceMatrix>
+   <NumberAvailablePattern>2</NumberAvailablePattern>
+   <CovarianceMatrix index="0">
+      <AvailablePattern>True False</AvailablePattern>
+      <NumberSampleAvailablePattern>10</NumberSampleAvailablePattern>
+      <Element irow="0" icol="0">1.0</Element>
+      <Element irow="0" icol="1">0.51041275626</Element>
+      <Element irow="0" icol="2">0.35951643578546216</Element>
+      <Element irow="0" icol="3">0.29620388195219366</Element>
+      <Element irow="0" icol="4">2.4515104989900003</Element>
+      <Element irow="0" icol="5">0.0</Element>
+      <Element irow="1" icol="1">0.35951643578546216</Element>
+      <Element irow="1" icol="2">0.29620388195219366</Element>
+      <Element irow="1" icol="3">0.26228393057114113</Element>
+      <Element irow="1" icol="4">1.3480497596524643</Element>
+      <Element irow="1" icol="5">0.0</Element>
+      <Element irow="2" icol="2">0.26228393057114113</Element>
+      <Element irow="2" icol="3">0.24096268070361052</Element>
+      <Element irow="2" icol="4">1.034024413179715</Element>
+      <Element irow="2" icol="5">0.0</Element>
+      <Element irow="3" icol="3">0.22620720097326022</Element>
+      <Element irow="3" icol="4">0.9122827943815239</Element>
+      <Element irow="3" icol="5">0.0</Element>
+      <Element irow="4" icol="4">6.605307852271106</Element>
+      <Element irow="4" icol="5">0.0</Element>
+      <Element irow="5" icol="5">1.0</Element>
+   </CovarianceMatrix>
+   <CovarianceMatrix index="1">
+      <AvailablePattern>False True</AvailablePattern>
+      <NumberSampleAvailablePattern>5</NumberSampleAvailablePattern>
+      <Element irow="0" icol="0">1.0</Element>
+      <Element irow="0" icol="1">0.20051167824000002</Element>
+      <Element irow="0" icol="2">0.0641835288108758</Element>
+      <Element irow="0" icol="3">0.026946551059025478</Element>
+      <Element irow="0" icol="4">0.0</Element>
+      <Element irow="0" icol="5">0.7113487119999999</Element>
+      <Element irow="1" icol="1">0.0641835288108758</Element>
+      <Element irow="1" icol="2">0.026946551059025478</Element>
+      <Element irow="1" icol="3">0.012614285347473641</Element>
+      <Element irow="1" icol="4">0.0</Element>
+      <Element irow="1" icol="5">0.10523797913710295</Element>
+      <Element irow="2" icol="2">0.012614285347473641</Element>
+      <Element irow="2" icol="3">0.006136617172130177</Element>
+      <Element irow="2" icol="4">0.0</Element>
+      <Element irow="2" icol="5">0.02219269233796712</Element>
+      <Element irow="3" icol="3">0.003025923100272313</Element>
+      <Element irow="3" icol="4">0.0</Element>
+      <Element irow="3" icol="5">0.006784589801991835</Element>
+      <Element irow="4" icol="4">1.0</Element>
+      <Element irow="4" icol="5">0.0</Element>
+      <Element irow="5" icol="5">0.5778824668681835</Element>
+   </CovarianceMatrix>
+   <PrecisionMatrixMax>
+      <Element irow="0" icol="0">0.0</Element>
+      <Element irow="0" icol="1">0.0</Element>
+      <Element irow="0" icol="2">0.0</Element>
+      <Element irow="0" icol="3">0.0</Element>
+      <Element irow="0" icol="4">-2185.5989288264013</Element>
+      <Element irow="0" icol="5">2200.674347134689</Element>
+      <Element irow="1" icol="1">0.0</Element>
+      <Element irow="1" icol="2">0.0</Element>
+      <Element irow="1" icol="3">0.0</Element>
+      <Element irow="1" icol="4">-614.7885858250487</Element>
+      <Element irow="1" icol="5">0.0</Element>
+      <Element irow="2" icol="2">0.0</Element>
+      <Element irow="2" icol="3">0.0</Element>
+      <Element irow="2" icol="4">2321.2394262462235</Element>
+      <Element irow="2" icol="5">0.0</Element>
+      <Element irow="3" icol="3">0.0</Element>
+      <Element irow="3" icol="4">-1894.758062370605</Element>
+      <Element irow="3" icol="5">0.0</Element>
+      <Element irow="4" icol="4">1416.716598246744</Element>
+      <Element irow="4" icol="5">-1461.9266285285041</Element>
+      <Element irow="5" icol="5">1621.7731429249625</Element>
+   </PrecisionMatrixMax>
+   <Coefficient>
+      <Component itarget="0" idescriptor="0">2.1830168070418274</Component>
+      <Component itarget="0" idescriptor="1">4.533644690614067</Component>
+      <Component itarget="0" idescriptor="2">-19.735866295023296</Component>
+      <Component itarget="0" idescriptor="3">16.92878171548913</Component>
+      <Component itarget="1" idescriptor="0">0.5618727509219248</Component>
+      <Component itarget="1" idescriptor="1">4.072911249867899</Component>
+      <Component itarget="1" idescriptor="2">-17.73020105111094</Component>
+      <Component itarget="1" idescriptor="3">15.208387555892628</Component>
+   </Coefficient>
+   <WidthMonteCarlo index="0">54.77317169911497</WidthMonteCarlo>
+   <WidthMonteCarlo index="1">48.113511789595094</WidthMonteCarlo>
+   <WidthMonteCarlo index="2">26.739391737800446</WidthMonteCarlo>
+   <WidthMonteCarlo index="3">35.89958892936535</WidthMonteCarlo>
+   <WidthMonteCarlo index="4">6.914574234275092</WidthMonteCarlo>
+   <WidthMonteCarlo index="5">49.18594760761067</WidthMonteCarlo>
+   <WidthMonteCarlo index="6">5.236573685073566</WidthMonteCarlo>
+   <WidthMonteCarlo index="7">10.336439499863015</WidthMonteCarlo>
+   <NumberSampleMonteCarlo>500</NumberSampleMonteCarlo>
+   <ModeAcquisitionFunction>0 1</ModeAcquisitionFunction>
+   <IndexTargetPrimary>1</IndexTargetPrimary>
+   <TargetMax index="0">3.9693563738</TargetMax>
+   <TargetMax index="1">0.9501056826</TargetMax>
+</CLAUDECovarianceMatrix>
