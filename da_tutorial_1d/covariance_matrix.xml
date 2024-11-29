@@ -74,23 +74,23 @@
       <Element irow="5" icol="5">1621.7731429249625</Element>
    </PrecisionMatrixMax>
    <Coefficient>
-      <Component itarget="0" idescriptor="0">2.1830168070418274</Component>
-      <Component itarget="0" idescriptor="1">4.533644690614067</Component>
-      <Component itarget="0" idescriptor="2">-19.735866295023296</Component>
-      <Component itarget="0" idescriptor="3">16.92878171548913</Component>
-      <Component itarget="1" idescriptor="0">0.5618727509219248</Component>
-      <Component itarget="1" idescriptor="1">4.072911249867899</Component>
-      <Component itarget="1" idescriptor="2">-17.73020105111094</Component>
-      <Component itarget="1" idescriptor="3">15.208387555892628</Component>
+      <Component itarget="0" idescriptor="0">1.9163012159384643</Component>
+      <Component itarget="0" idescriptor="1">7.726872676386032</Component>
+      <Component itarget="0" idescriptor="2">-27.481473679042626</Component>
+      <Component itarget="0" idescriptor="3">21.85462198119945</Component>
+      <Component itarget="1" idescriptor="0">0.4011611924346177</Component>
+      <Component itarget="1" idescriptor="1">6.976456965091083</Component>
+      <Component itarget="1" idescriptor="2">-24.812537554170742</Component>
+      <Component itarget="1" idescriptor="3">19.73215246656335</Component>
    </Coefficient>
-   <WidthMonteCarlo index="0">54.77317169911497</WidthMonteCarlo>
-   <WidthMonteCarlo index="1">48.113511789595094</WidthMonteCarlo>
-   <WidthMonteCarlo index="2">26.739391737800446</WidthMonteCarlo>
-   <WidthMonteCarlo index="3">35.89958892936535</WidthMonteCarlo>
-   <WidthMonteCarlo index="4">6.914574234275092</WidthMonteCarlo>
-   <WidthMonteCarlo index="5">49.18594760761067</WidthMonteCarlo>
-   <WidthMonteCarlo index="6">5.236573685073566</WidthMonteCarlo>
-   <WidthMonteCarlo index="7">10.336439499863015</WidthMonteCarlo>
+   <WidthMonteCarlo index="0">35.03041407652295</WidthMonteCarlo>
+   <WidthMonteCarlo index="1">16.09181079195354</WidthMonteCarlo>
+   <WidthMonteCarlo index="2">46.822924113003886</WidthMonteCarlo>
+   <WidthMonteCarlo index="3">46.49288389343105</WidthMonteCarlo>
+   <WidthMonteCarlo index="4">5.788296486272829</WidthMonteCarlo>
+   <WidthMonteCarlo index="5">31.448817524076432</WidthMonteCarlo>
+   <WidthMonteCarlo index="6">6.296349690379397</WidthMonteCarlo>
+   <WidthMonteCarlo index="7">14.095391904929077</WidthMonteCarlo>
    <NumberSampleMonteCarlo>500</NumberSampleMonteCarlo>
    <ModeAcquisitionFunction>0 1</ModeAcquisitionFunction>
    <IndexTargetPrimary>1</IndexTargetPrimary>
